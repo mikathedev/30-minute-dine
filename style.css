@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&display=swap');
 
 :root {
-  font-family: "Baskervville", serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 
@@ -29,14 +30,15 @@ h1 {
 }
 
 h3 {
-    font-family: "Baskervville", serif;
+
     font-size: 3rem;
     margin: 0px;
 }
 
 .header_accent {
-    width: 60rem;
-    align-items: center;
+    width: 80%;
+    max-width: 60rem;
+    align-self: center;
     height: 0.2rem;
     background-color: #ff4c00;
     margin: 1rem auto;
