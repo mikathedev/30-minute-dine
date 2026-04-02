@@ -46,6 +46,14 @@ h3 {
     margin-top: 0.01rem;
 }
 
+.nav-icon {
+    max-width: 200px;
+    max-height: 73px;
+    margin-left: 2rem;
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
 .navbutton {
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
