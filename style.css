@@ -43,7 +43,7 @@ h3 {
     background-color: #ff4c00;
     margin: 1rem auto;
     border: none;
-    margin-top: 0.01rem;
+    margin-top: -0.5rem;
 }
 
 .nav-icon {
@@ -112,4 +112,13 @@ nav {
     text-underline-offset: 10px;
     text-decoration-color: #ff4c00;
     text-decoration-thickness: 0.3rem;
+}
+
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
