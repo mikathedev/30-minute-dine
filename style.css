@@ -124,8 +124,10 @@ footer {
 }
 
 .social-icon {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: 0 10px;
     color: white;
+    stroke: white !important;
+    fill: white !important;
 }
