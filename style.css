@@ -6,6 +6,8 @@
   font-weight: 400;
   font-style: normal;
   color: white;
+    --accent-orange: #ff4c00;
+    --card-bg: rgba(20, 20, 20, 0.8);
 }
 
 
@@ -146,4 +148,14 @@ footer {
     color: var(--accent-orange);
     cursor: progress;
     transition: color 0.3s ease, filter 0.3s ease;
+}
+
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+
 }

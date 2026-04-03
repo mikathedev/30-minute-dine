@@ -1,0 +1,96 @@
+
+
+
+.header_accent {
+    width: 20%;
+    align-self: center;
+    height: 0.2rem;
+    background-color: #ff4c00;
+    border: none;
+    margin-top: -0.5rem;
+}
+
+.about-me-header_accent {
+    width: 40%;
+    margin-left: 0;
+    margin-right: auto;
+    align-self: flex-start;
+    height: 0.2rem;
+    background-color: #ff4c00;
+    border: none;
+    margin-top: -0.5rem;
+}
+
+.about-me-header_accent-right {
+    width: 40%;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-end;
+    height: 0.2rem;
+    background-color: #ff4c00;
+    border: none;
+    margin-top: -0.5rem;
+}
+
+.about-me-card-left {
+    margin: 1rem;
+    border-left: 2px solid var(--accent-orange);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--card-bg);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+}
+
+.about-me-card-right {
+    margin: 1rem;
+    border-right: 2px solid var(--accent-orange);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--card-bg);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 2rem 1rem;
+}
+
+.about-me-section img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.about-me-container-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    width: 90%;
+    transition: transform 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.about-me-container-right {
+
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    width: 90%;
+    transition: transform 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
