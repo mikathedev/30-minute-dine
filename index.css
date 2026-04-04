@@ -3,6 +3,16 @@
     --card-bg: rgba(20, 20, 20, 0.8);
 }
 
+header img{
+    width: 50%;
+    margin-bottom: -2rem;
+}
+
+header img:hover{
+    transform: none;
+}
+
+
 .info-contaner {
     font-family: 'Inter', sans-serif;
     font-size: 1.7rem;

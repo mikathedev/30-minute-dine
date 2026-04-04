@@ -57,6 +57,10 @@ h3 {
     cursor: pointer;
 }
 
+.nav-icon:hover {
+    transform: none;
+}
+
 .navbutton {
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
