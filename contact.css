@@ -1,0 +1,78 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;;
+    margin-right: 1rem;
+    width: auto;
+    flex: 2;
+}
+
+div input {
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    background-color: var(--card-bg);
+    color: white;
+    
+}
+
+div textarea {
+    width: 25rem;
+    min-height: 10rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    background-color: var(--card-bg);
+    color: white;
+}
+
+div input:focus {
+    outline: 2px solid var(--accent-orange);
+}
+
+div textarea:focus {
+    outline: 2px solid var(--accent-orange);
+}
+
+div label {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+label[for="message"] {
+    margin-bottom: 1rem;
+}
+
+
+form button {
+    background-color: var(--accent-orange);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 10.3rem;
+    transition: text-indent 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-container a:hover {
+    text-decoration: none;
+    color: var(--accent-orange);
+}

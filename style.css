@@ -150,10 +150,20 @@ footer {
 }
 .social-icon:hover {
     color: var(--accent-orange);
-    cursor: progress;
+    cursor: pointer;
     transition: color 0.3s ease, filter 0.3s ease;
 }
 
+#email-footer {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+#email-footer:hover {
+    color: var(--accent-orange);
+}
 
 img {
     transition: transform 0.3s ease;
