@@ -71,7 +71,8 @@ header img:hover{
 .get-started {
     margin-top: auto;
     margin-bottom: 0rem;
-    padding: 10px 20px;
+    padding: 10px;
+    padding-right: 5px;
     background-color: var(--accent-orange);
     color: white;
     border: none;
@@ -79,13 +80,13 @@ header img:hover{
     font-size: 1.1rem;
     cursor: pointer;
     width: 10.3rem;
-    text-indent: 12.5px;
+    text-indent: 9px;
     transition: text-indent 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
 }
 
 .get-started:hover {
     color: white;
-    text-indent: 8px;
+    text-indent: -1px;
 }
 
 .get-started::after {
