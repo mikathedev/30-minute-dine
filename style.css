@@ -10,6 +10,32 @@
     --card-bg: rgba(20, 20, 20, 0.8);
 }
 
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-div {
+    rotate: 90;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--accent-orange);
+    height: 100%;
+    width: 5px;
+    flex: 1;
+}
+
 
 body {
     padding: 0px;
@@ -168,6 +194,7 @@ footer {
 }
 
 img {
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
