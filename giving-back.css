@@ -85,3 +85,18 @@
     background-color: transparent;
     opacity: 1;
 }
+
+
+.prog {
+    width: 50%;
+    height: 3rem;
+    background-color: var(--card-bg);
+    margin-top: auto;
+}
+
+.prog div {
+    width: 70%;
+    height: 100%;
+    background-color: var(--accent-orange);
+    transition: width 0.3s ease;
+}
