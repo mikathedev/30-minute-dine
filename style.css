@@ -8,6 +8,7 @@
   color: white;
     --accent-orange: #ff4c00;
     --card-bg: rgba(20, 20, 20, 0.8);
+    --orange-text: #d6612f;
 }
 
 .horizontal-flex {

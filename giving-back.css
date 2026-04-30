@@ -1,12 +1,17 @@
 .giving-back-sec {
-    height: 40vh;
+    padding: 20px;
+    min-height: 40vh;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
 }
 
 .giving-back-sec img {
-    height: auto; 
-    width: 20rem;
-    /* Black → Red */
-filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(5000%) hue-rotate(0deg);
+    height: 60rem;
 }
 
 .giving-back-sec .imgadiv {
@@ -14,6 +19,7 @@ filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(5000%) hue
 }
 
 .giving-back-sec .text {
+    transform: translateY(-20px);
     padding: 20px;
     flex: 1;
     background-color: var(--card-bg);
@@ -26,7 +32,7 @@ filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(5000%) hue
     margin-top: 3rem;
     margin-bottom: auto;
     font-size: 3rem;
-    color: var(--accent-orange);
+    color: var(--orange-text);
 }
 
 .giving-back-sec .text p {
@@ -35,4 +41,47 @@ filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(5000%) hue
 
 .giving-back-sec .text p b {
     color: var(--accent-orange);
+}
+
+.get-started {
+    margin-top: auto;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    padding: 10px;
+    padding-right: 5px;
+    background-color: var(--accent-orange);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 10.3rem;
+    text-indent: 9px;
+    transition: text-indent 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+.get-started:hover {
+    color: white;
+    text-indent: -1px;
+}
+
+.get-started::after {
+    content: " >";
+    color: white;
+    margin-left: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: text-indent 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+    text-indent: 300px; /* Hides the ">" off-screen */
+}
+
+.get-started:hover::after {
+    text-indent: 0;
+    visibility: visible;/* Shows the ">" when hovered */
+    color: white;
+    margin-left: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    opacity: 1;
 }
