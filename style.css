@@ -88,6 +88,11 @@ h3 {
     transform: none;
 }
 
+button {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
 .navbutton {
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
