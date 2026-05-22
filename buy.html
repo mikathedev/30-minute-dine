@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meal Options - 30 Minute Dine</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="blog.css" /> <!-- reusing blog.css for card styles -->
+        <link rel="shortcut icon" href="Icons/icon.png" type="image/x-icon" />
+    </head>
+    <body>
+        <nav>
+            <img
+                class="nav-icon"
+                src="Icons/icon-and-text.png"
+                onclick="location.href = 'index.html'"
+            />
+            <div class="nav">
+                <button class="navbutton" onclick="location.href = 'index.html'">home</button>
+                <button class="navbutton" onclick="location.href = 'pricing.html'">pricing</button>
+                <button class="navbutton" onclick="location.href = 'about-me.html'">about me</button>
+                <button class="navbutton" onclick="location.href = 'contact.html'">contact</button>
+                <button class="navbutton" onclick="location.href = 'blog.html'">blog</button>
+                <button class="navbutton" onclick="location.href = 'giving-back.html'">giving back</button>
+                <button class="navbutton" onclick="location.href = 'buy.html'">shop</button>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Meal Options</h1>
+            <hr class="header_accent" align="center" />
+        </header>
+
+        <main
+            class="blog-container"
+            style="
+                padding: 2rem;
+                color: white;
+                text-align: center;
+                font-family: &quot;Inter&quot;, sans-serif;
+            "
+        >
+            <!-- Keto -->
+            <div class="card">
+                <img class="card-image" src="Icons/fresh-ingredients.jpg" />
+                <div class="card-body">
+                    <p class="card-meta">Low Carb · High Fat</p>
+                    <h2 class="card-title">Keto</h2>
+                    <p class="card-excerpt">
+                        Stay in ketosis without sacrificing flavour. Our keto meals are 
+                        low in carbs and packed with healthy fats and proteins to keep 
+                        you fuelled all day.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="read-more">
+                        View meals <i class="ti ti-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Vegan -->
+            <div class="card">
+                <img class="card-image" src="Icons/30minutemeal.webp" />
+                <div class="card-body">
+                    <p class="card-meta">Plant Based · Dairy Free</p>
+                    <h2 class="card-title">Vegan</h2>
+                    <p class="card-excerpt">
+                        100% plant-based meals made with locally sourced Ontario produce. 
+                        Big on flavour, easy on the planet — ready in 30 minutes or less.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="read-more">
+                        View meals <i class="ti ti-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- High Protein -->
+            <div class="card">
+                <img class="card-image" src="Icons/30minutemeals.jpg" />
+                <div class="card-body">
+                    <p class="card-meta">High Protein · Muscle Friendly</p>
+                    <h2 class="card-title">High Protein</h2>
+                    <p class="card-excerpt">
+                        Built for performance. Our high protein meals are loaded with 
+                        ethically sourced lean meats and legumes to help you hit your 
+                        goals without the meal prep.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="read-more">
+                        View meals <i class="ti ti-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="socials">
+                <a href="https://www.facebook.com/30MinuteDine" target="_blank"
+                    ><img src="Icons/PNGs/regular/facebook-logo.png" class="social-icon"
+                /></a>
+                <a href="https://www.twitter.com/30MinuteDine" target="_blank"
+                    ><img src="Icons/PNGs/regular/x-logo.png" class="social-icon"
+                /></a>
+                <a href="https://www.instagram.com/30MinuteDine" target="_blank"
+                    ><img src="Icons/PNGs/regular/instagram-logo.png" class="social-icon"
+                /></a>
+                <a href="https://www.youtube.com/30MinuteDine" target="_blank"
+                    ><img src="Icons/PNGs/regular/youtube-logo.png" class="social-icon"
+                /></a>
+            </div>
+            <a id="email-footer" href="mailto:30minutedine@gmail.com">30minutedine@gmail.com</a>
+            <p>&copy; 2026 The 30 Minute Dine&trade;. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -7,6 +7,23 @@
     padding: 2rem;
 }
 
+.vlog-container {
+    font-family: sans-serif;
+    background: transparent;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+video {
+    width: 100%;
+    max-width: 85vw;
+    border-radius: 12px;
+}
+
 @media (max-width: 900px) {
     .blog-container {
         gap: 2rem;
